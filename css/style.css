@@ -829,7 +829,8 @@ a:focus {
   padding-top: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 1rem;
   width: 100%;
 }
@@ -841,8 +842,8 @@ a:focus {
   font-weight: 600;
 }
 .iconBanner {
-  width: 75px !important;
-  height: 75px !important;
+  width: 50px !important;
+  height: 50px !important;
 }
 
 /*******************************/
