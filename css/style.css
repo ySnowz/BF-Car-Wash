@@ -512,6 +512,20 @@ a:focus {
   width: 100%;
   padding: 45px 0 15px 0;
 }
+.about h2{
+  font-size: 3vw;
+}
+@media (max-width: 767px){
+  .about h2{
+    font-size: 6vw;
+  }
+}
+
+@media(max-width: 1023px){
+  .about h2{
+    font-size: 7vw;
+  }
+}
 
 .about .section-header {
   margin-bottom: 30px;
