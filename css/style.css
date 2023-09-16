@@ -513,7 +513,7 @@ a:focus {
   padding: 45px 0 15px 0;
 }
 .about h2{
-  font-size: 5vmin;
+  font-size: 4vmin;
 }
 @media (max-width: 767px){
   .about h2{
