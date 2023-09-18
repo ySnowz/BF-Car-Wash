@@ -23,5 +23,5 @@ function scrollToIdOnClick(_){
 const sectionsReaveal = document.querySelectorAll('section')
 
 sectionsReaveal.forEach((section)=>{
-  ScrollReveal().reveal(section)
+  ScrollReveal({reset: true}).reveal(section)
 })
