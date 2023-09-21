@@ -837,13 +837,11 @@ a:focus {
   justify-content: center;
   width: 100%;
   padding: 5rem 0;
-  text-align: start;
 }
 
 .testimonial h2{
-  padding-left: 6vmin;
   padding-bottom: 1rem;
-  text-align: start !important;
+  text-align: center !important;
   color: #d9fbff;
   font-size: 7vmin;
   font-weight: 600;
@@ -862,8 +860,8 @@ a:focus {
 
 .testimonial-guy {
   background-color: rgba(255, 255, 255, 0.990);
-  border-left: 2px solid #00454d;
-  border-right: 2px solid #00454d;
+  border-left: 3px solid #00454d;
+  border-right: 3px solid #00454d;
   border-radius: 7px;
   -webkit-box-shadow: 0px 12px 30px 10px rgba(54, 54, 60, 0.03);
   -moz-box-shadow: 0px 12px 30px 10px rgba(54, 54, 60, 0.03);
@@ -879,17 +877,30 @@ a:focus {
 }
 
 .testimonial-guy img {
-  max-width: 120px;
-  min-width: 60px;
-  max-height: 120px;
-  min-height: 60px;
-  border-radius: 4px;
-  border-left: 1px solid #00454d;
-  border-right: 1px solid #00454d;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-bottom: 2px solid #00454d;
+  border-left: 2px solid #00454d;
+  border-right: 2px solid #00454d;
   -webkit-box-shadow: 0px 5px 40px -10px rgba(209, 209, 209, 1);
   -moz-box-shadow: 0px 5px 40px -10px rgba(209, 209, 209, 1);
   box-shadow: 0px 5px 40px -10px rgba(209, 209, 209, 1);
 }
+@media (max-width:480px) {
+  .testimonial-guy img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 481px) and (max-width:768px){
+  .testimonial-guy img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
 
 .testimonial h3 {
   padding-top: 2rem;
